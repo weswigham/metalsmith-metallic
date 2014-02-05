@@ -1,7 +1,7 @@
 
 # metalsmith-excerpt
 
-  A Metalsmith plugin to add an excerpt from files.
+  A Metalsmith plugin to add an excerpt to files.
 
 ## Installation
 

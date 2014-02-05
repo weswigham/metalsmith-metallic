@@ -1,6 +1,6 @@
 {
   "name": "metalsmith-excerpt",
-  "description": "A Metalsmith plugin to add an excerpt from files.",
+  "description": "A Metalsmith plugin to add an excerpt to files.",
   "repository": "git://github.com/segmentio/metalsmith-excerpt.git",
   "version": "0.0.1",
   "license": "MIT",
