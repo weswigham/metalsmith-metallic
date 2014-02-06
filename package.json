@@ -2,15 +2,13 @@
   "name": "metalsmith-excerpt",
   "description": "A Metalsmith plugin to add an excerpt to files.",
   "repository": "git://github.com/segmentio/metalsmith-excerpt.git",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "license": "MIT",
   "main": "lib/index.js",
   "dependencies": {},
   "devDependencies": {
-    "assert-dir-equal": "0.0.1",
     "mocha": "1.x",
-    "metalsmith": "~0.0.2",
-    "metalsmith-templates": "0.0.2",
+    "metalsmith": "0.x",
     "swig": "~1.3.2"
   }
 }

@@ -1,17 +1,15 @@
 
-var equal = require('assert-dir-equal');
+var assert = require('assert');
 var excerpt = require('..');
 var Metalsmith = require('metalsmith');
-var templates = require('metalsmith-templates');
 
 describe('metalsmith-excerpt', function(){
   it('should convert excerpt files', function(done){
     Metalsmith('test/fixture')
       .use(excerpt())
-      .use(templates({ engine: 'swig' }))
-      .build(function(err){
+      .build(function(err, files){
         if (err) return done(err);
-        equal('test/fixture/expected', 'test/fixture/build');
+        assert.equal('excerpt', files['index.md'].excerpt);
         done();
       });
   });
