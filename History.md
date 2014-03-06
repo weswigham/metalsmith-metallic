@@ -1,4 +1,8 @@
 
+0.2.0 - March 5, 2013
+---------------------
+* rename to `metalsmith-excerpts`
+
 0.1.1 - February 6, 2013
 ------------------------
 * add debug statements

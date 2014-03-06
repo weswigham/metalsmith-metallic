@@ -3,7 +3,7 @@ var assert = require('assert');
 var excerpt = require('..');
 var Metalsmith = require('metalsmith');
 
-describe('metalsmith-excerpt', function(){
+describe('metalsmith-excerpts', function(){
   it('should convert excerpt files', function(done){
     Metalsmith('test/fixture')
       .use(excerpt())

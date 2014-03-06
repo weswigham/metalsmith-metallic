@@ -1,8 +1,8 @@
 {
-  "name": "metalsmith-excerpt",
-  "description": "A Metalsmith plugin to add an excerpt to files.",
-  "repository": "git://github.com/segmentio/metalsmith-excerpt.git",
-  "version": "0.1.1",
+  "name": "metalsmith-excerpts",
+  "description": "A Metalsmith plugin to extract an excerpt from Markdown files.",
+  "repository": "git://github.com/segmentio/metalsmith-excerpts.git",
+  "version": "0.2.0",
   "license": "MIT",
   "main": "lib/index.js",
   "dependencies": {
