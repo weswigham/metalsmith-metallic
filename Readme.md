@@ -1,20 +1,20 @@
 
-# metalsmith-excerpts
+# metalsmith-metallic
 
-  A [Metalsmith](http://metalsmith.io) plugin to extract an excerpt from Markdown files.
+  A [Metalsmith](http://metalsmith.io) plugin to highlight code in Markdown files.
 
 ## Installation
 
-    $ npm install metalsmith-excerpts
+    $ npm install metalsmith-metallic
 
 ## CLI Usage
 
-  Install via npm and then add the `metalsmith-excerpts` key to your `metalsmith.json` plugin, like so:
+  Install via npm and then add the `metalsmith-metallic` key to your `metalsmith.json` plugin, like so:
 
 ```json
 {
   "plugins": {
-    "metalsmith-excerpts": true
+    "metalsmith-metallic": true
   } 
 }
 ```
@@ -22,9 +22,9 @@
 ## Javascript Usage
 
 ```js
-var excerpts = require('metalsmith-excerpts');
+var metallic = require('metalsmith-metallic');
 
-metalsmith.use(excerpts());
+metalsmith.use(metallic());
 ```
 
 ## License
