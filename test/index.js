@@ -15,7 +15,7 @@ describe('metalsmith-metallic', function(){
       .use(metallic())
       .build(function(err, files){
         if (err) return done(err);
-        assert.equal(data.toString(), files['index.md'].content);
+        assert.equal(data.toString(), files['index.md'].contents);
         done();
       });
     });
