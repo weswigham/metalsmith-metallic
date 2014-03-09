@@ -6,6 +6,15 @@
 ## Installation
 
     $ npm install metalsmith-metallic
+    
+## Setup
+
+Include a [highlight.js](http://highlightjs.org/download/) theme somewhere in your templates.
+
+Ex:
+```html
+<link rel="stylesheet" href="http://yandex.st/highlightjs/8.0/styles/default.min.css">
+```
 
 ## CLI Usage
 
