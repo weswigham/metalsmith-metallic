@@ -1,3 +1,9 @@
-excerpt
+Non code
 
-more content
+```
+local var = "untyped code"
+```
+
+```js
+var t = 'typed code'
+```
