@@ -11,5 +11,9 @@ local var = "untyped code"
 var t = 'typed code'
 ```
 
+``` js
+var t = 'typed code with a space'
+```
+
 
 More non code

@@ -4,5 +4,7 @@ Non code
 
 <pre><code class="js"><span class="hljs-keyword">var</span> t = <span class="hljs-string">'typed code'</span></code></pre>
 
+<pre><code class="js"><span class="hljs-keyword">var</span> t = <span class="hljs-string">'typed code with a space'</span></code></pre>
+
 
 More non code
