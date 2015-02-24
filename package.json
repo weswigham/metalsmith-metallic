@@ -10,8 +10,9 @@
   },
   "dependencies": {
     "debug": "~2.1",
+    "entities": "~1.1",
     "highlight.js": "~8.3",
-    "entities": "~1.1"
+    "minimatch": "^2.0.1"
   },
   "devDependencies": {
     "mocha": "2.x",
