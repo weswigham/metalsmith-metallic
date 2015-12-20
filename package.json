@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "debug": "~2.1",
-    "highlight.js": "~8.3",
+    "highlight.js": "~8.9.1",
     "entities": "~1.1"
   },
   "devDependencies": {
