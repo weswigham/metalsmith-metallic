@@ -5,7 +5,7 @@
 <span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title">Program</span>
 {
     <span class="hljs-comment"><span class="hljs-xmlDocTag">///</span> <span class="hljs-xmlDocTag">&lt;summary&gt;</span>The entry point to the program.<span class="hljs-xmlDocTag">&lt;/summary&gt;</span></span>
-    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">int</span> <span class="hljs-title">Main</span><span class="hljs-params">(<span class="hljs-keyword">string</span>[] args)</span>
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">int</span> <span class="hljs-title">Main</span>(<span class="hljs-params"><span class="hljs-keyword">string</span>[] args</span>)
     </span>{
         Console.WriteLine(<span class="hljs-string">"Hello, World!"</span>);
         <span class="hljs-keyword">string</span> s = <span class="hljs-string">@"This
@@ -17,7 +17,7 @@ lines!"</span>;
     }
 }
 
-<span class="hljs-function"><span class="hljs-keyword">async</span> Task&lt;<span class="hljs-keyword">int</span>&gt; <span class="hljs-title">AccessTheWebAsync</span><span class="hljs-params">()</span>
+<span class="hljs-function"><span class="hljs-keyword">async</span> Task&lt;<span class="hljs-keyword">int</span>&gt; <span class="hljs-title">AccessTheWebAsync</span>(<span class="hljs-params"></span>)
 </span>{
     <span class="hljs-comment">// ...</span>
     <span class="hljs-keyword">string</span> urlContents = <span class="hljs-keyword">await</span> getStringTask;
