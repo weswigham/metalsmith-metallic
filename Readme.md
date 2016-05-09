@@ -1,5 +1,5 @@
 
-# metalsmith-metallic <img src="https://travis-ci.org/weswigham/metalsmith-metallic.svg">
+# metalsmith-metallic [<img src="https://travis-ci.org/weswigham/metalsmith-metallic.svg">](https://travis-ci.org/weswigham/metalsmith-metallic)
 
   A [Metalsmith](http://metalsmith.io) plugin to highlight code in Markdown files.
 
