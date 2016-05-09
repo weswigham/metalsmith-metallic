@@ -2,7 +2,7 @@
   "name": "metalsmith-metallic",
   "description": "A Metalsmith plugin to hightlight code blocks in markdown using highlight.js.",
   "repository": "git://github.com/weswigham/metalsmith-metallic.git",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "license": "MIT",
   "main": "lib/index.js",
   "scripts": {
