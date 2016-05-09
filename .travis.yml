@@ -3,12 +3,12 @@ node_js:
 - '0.10'
 - '0.12'
 - '4'
-- 'node'
+- node
 deploy:
   provider: npm
-  email: "wwigham@gmail.com"
+  email: wwigham@gmail.com
   api_key:
-    secure: dldIPfz0vBs7D83ToQI0h7wnmB35lne25IlYVf/vcCecGgbfc+igw88KdlSdP7Jb/HNQ+aq4cOO7PH0yKADG/sCWL5AYKcQvKxK+wzfxvD7E+oaDJVhJsi+3Ru5/1dQrPqKT5qknBEbedVVcpScw5sJzqmgSnXJcDdcQ/j3AIWQ=
+    secure: RsNs/Esw3ozBCLvt976sgsY++cw1a493gH1dCJvxESRmj0XHtQqdjQDVmFgbNmrZ3DosawUrSUScWPiKm5+gmxGxaz9P/niM+JPx6+mv7jBw4XMRAJcFLa0BlZwRgkB5xcfCM/ZrS7oLvNazz/vGalaqgskjCRa239tsvz75UrQ=
   on:
     tags: true
-    all_branches: true
+    repo: weswigham/metalsmith-metallic
