@@ -1,5 +1,5 @@
 
-# metalsmith-metallic [![travis status]("https://travis-ci.org/weswigham/metalsmith-metallic.svg")](https://travis-ci.org/weswigham/metalsmith-metallic) [![npm version](https://badge.fury.io/js/metalsmith-metallic.svg)](https://www.npmjs.com/package/metalsmith-metallic)
+# metalsmith-metallic [![travis status](https://travis-ci.org/weswigham/metalsmith-metallic.svg)](https://travis-ci.org/weswigham/metalsmith-metallic) [![npm version](https://badge.fury.io/js/metalsmith-metallic.svg)](https://www.npmjs.com/package/metalsmith-metallic)
 
   A [Metalsmith](http://metalsmith.io) plugin to highlight code in Markdown files.
 
