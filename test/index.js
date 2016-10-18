@@ -69,7 +69,7 @@ describe('metalsmith-metallic', function(){
           .use(metallic())
           .build(function(err, files){
             if (err) { return done(err); }
-            assert.equal(data.toString(), files['embedded-markers.md'].contents.toString());
+            assert.equal(files['embedded-markers.md'].contents.toString(), data.toString());
             done();
           });
       });
