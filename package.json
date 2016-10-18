@@ -16,5 +16,14 @@
   "devDependencies": {
     "mocha": "latest",
     "metalsmith": "latest"
-  }
+  },
+  "keywords": [
+    "highlightjs",
+    "markdown",
+    "metalsmith",
+    "code",
+    "highlight",
+    "syntax",
+    "highlighting"
+  ]
 }
