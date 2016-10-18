@@ -13,7 +13,7 @@ Include a [highlight.js](http://highlightjs.org/download/) theme somewhere in yo
 
 Ex:
 ```html
-<link rel="stylesheet" href="http://yandex.st/highlightjs/8.0/styles/default.min.css">
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.7.0/styles/default.min.css">
 ```
 
 ## CLI Usage
