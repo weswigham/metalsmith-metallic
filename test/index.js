@@ -60,4 +60,19 @@ describe('metalsmith-metallic', function(){
         });
     });
   });
+  
+  it('should handle embedded fences correctly', function(done){
+    fs.readFile('test/fixture/expected/embedded-markers.md', 'utf8', function (err,data) {
+      if (err) {
+        return console.log(err)
+      }
+      Metalsmith('test/fixture')
+        .use(metallic())
+        .build(function(err, files){
+          if (err) { return done(err); }
+          assert.equal(files['embedded-markers.md'].contents.toString(), data.toString());
+          done();
+        });
+    });
+  });
 });
