@@ -25,7 +25,7 @@ describe('metalsmith-metallic', function(){
         .use(metallic())
         .build(function(err, files){
           if (err) { return done(err); }
-          assert.equal(data.toString(), files['index.md'].contents.toString());
+          assert.equal(files['index.md'].contents.toString(), data.toString());
           done();
         });
     });
@@ -40,7 +40,7 @@ describe('metalsmith-metallic', function(){
         .use(metallic())
         .build(function(err, files){
           if (err) { return done(err); }
-          assert.equal(data.toString(), files['nohighlight.md'].contents.toString());
+          assert.equal(files['nohighlight.md'].contents.toString(), data.toString());
           done();
         });
     });
@@ -55,7 +55,7 @@ describe('metalsmith-metallic', function(){
         .use(metallic())
         .build(function(err, files){
           if (err) { return done(err); }
-          assert.equal(data.toString(), files['csharp.md'].contents.toString());
+          assert.equal(files['csharp.md'].contents.toString(), data.toString());
           done();
         });
     });
