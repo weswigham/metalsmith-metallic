@@ -9,7 +9,7 @@
     "test": "mocha"
   },
   "dependencies": {
-    "debug": "~2.1",
+    "debug": "~2.2",
     "highlight.js": "~9.7.0",
     "entities": "~1.1"
   },
