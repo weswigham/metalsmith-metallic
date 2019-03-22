@@ -5,7 +5,7 @@ deploy:
   provider: npm
   email: wwigham@gmail.com
   api_key:
-    secure: RsNs/Esw3ozBCLvt976sgsY++cw1a493gH1dCJvxESRmj0XHtQqdjQDVmFgbNmrZ3DosawUrSUScWPiKm5+gmxGxaz9P/niM+JPx6+mv7jBw4XMRAJcFLa0BlZwRgkB5xcfCM/ZrS7oLvNazz/vGalaqgskjCRa239tsvz75UrQ=
+    secure: FyhRWzzCU/EWolhoeRnNlD+BsVJzFYtip/qm05NwxOX1cJYtQZTiBadT+qF1bedUAzj+D4ZbZMOD1vmUS7SOAeR3Ya5AGR5VZdJKGrY/U7h2fm6d513A2Ax4GePJlqxuXbg94ktEc8U2yD0JCz/Y6m6lRj/58wPKKvnEisSzA18=
   on:
     tags: true
     repo: weswigham/metalsmith-metallic
